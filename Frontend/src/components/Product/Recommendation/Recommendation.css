@@ -1,0 +1,39 @@
+.recommendation-container {
+    margin-top: 20px;
+}
+
+.recommendation-card {
+    background-color: #ffffff;
+    border: 2px solid #2a9d8f;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recommendation-card:hover {
+    transform: scale(1.05);
+}
+
+.recommendation-image-container {
+    min-width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recommendation-image {
+    max-width: 10vw;
+    max-height: 25vh;
+    object-fit: cover;
+}
+
+.card-title {
+    color: #264653;
+}
+
+.text-danger {
+    color: #e76f51 !important;
+}
+
+.text-success {
+    color: #2a9d8f !important;
+}

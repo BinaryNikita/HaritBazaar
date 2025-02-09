@@ -1,0 +1,40 @@
+/* FrontPage.css */
+
+/* Hero Section Styling */
+.hero-background {
+    background: linear-gradient(to right, #809D3C, #5D8736); /* Eco-friendly green gradient */
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Hero Title */
+.hero-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Hero Subtitle */
+.hero-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+.hero-btn {
+    background-color: #fff; 
+    color: #018749;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    display: inline-block;
+    max-width: 200px;
+}
+
+.hero-btn:hover {
+    background-color: #fff; 
+    color: #016a3a;
+}

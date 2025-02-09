@@ -1,0 +1,46 @@
+/* product.css */
+
+/* Custom Styles for Wishlist Page */
+.wishlist-container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .wishlist-item {
+    background-color: #f9fff9;
+    color: #2d572c;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .wishlist-item:hover {
+    background-color: #8b5e3c18;
+    color: #28a745;
+  }
+  
+  .add-wishlist-form .input-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .add-wishlist-form .form-control {
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .add-wishlist-form .btn-success {
+    border-radius: 0 5px 5px 0;
+  }
+  
+  /* General Styling */
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .mt-5 {
+    margin-top: 3rem;
+  }
+  
+  .mb-3 {
+    margin-bottom: 1rem;
+  }
+  

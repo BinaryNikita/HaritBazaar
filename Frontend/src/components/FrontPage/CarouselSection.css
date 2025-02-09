@@ -1,0 +1,52 @@
+/* Styling for carousel images */
+.carousel-image {
+    border-radius: 10px;
+    object-fit: cover;  
+    transition: transform 0.5s ease-in-out; 
+}
+
+/* Add a zoom-in effect on hover for the carousel images */
+.carousel-image:hover {
+    transform: scale(1.03);
+}
+
+/* Title styling */
+.carousel-title {
+    color: #5D8736 !important;
+    /* background-color: rgba(205, 192, 94, 0.427) !important; */
+    padding: 15px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Text styling */
+.carousel-text {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+
+/* Carousel navigation buttons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #018749; /* Eco-friendly green for the navigation icons */
+}
+
+/* Custom styles for the carousel captions */
+.carousel-caption {
+    text-align: center;
+}
+
+/* Styling for the carousel controls (arrows) */
+.carousel-control-prev,
+.carousel-control-next {
+    z-index: 5; 
+}

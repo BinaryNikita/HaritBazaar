@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f0;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container-fluid {
+    margin-top: 20px;
+}
+
+.user-profile, .cart-section, .orders-section, .wishlist-section {
+    margin: 10px 0;
+}
+
+.user-profile .card, .cart-section .cart-item, .orders-section .order-item, .wishlist-section .wishlist-item {
+    background-color: #ffffff;
+    border: 2px solid #2a9d8f;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3, h4 {
+    color: #2a9d8f;
+}
+
+strong {
+    color: #264653;
+}
+
+.details {
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.product-image-container {
+    flex: 1;
+    text-align: center;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.cart-item-details, .order-item-details, .order-item-status {
+    margin-left: 10px;
+}
+
+.img-fluid, .rounded {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .user-profile, .cart-section, .orders-section, .wishlist-section {
+        width: 100%;
+    }
+
+    .container-fluid {
+        padding: 10px;
+    }
+}

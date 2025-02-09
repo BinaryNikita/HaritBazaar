@@ -1,0 +1,39 @@
+/* Eco-friendly color palette */
+:root {
+    --green: #4CAF50;
+    --dark-green: #388E3C;
+    --yellow: #FFEB3B;
+    --light-beige: #F4F4F4;
+    --dark-gray: #4A4A4A;
+}
+
+body {
+    background-color: var(--light-beige);
+    color: var(--dark-gray);
+    font-family: 'Nunito', sans-serif;
+}
+
+header h1 {
+    color: var(--green);
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.text-green {
+    color: var(--green);
+}
+
+.btn-light {
+    background-color: var(--yellow);
+    color: var(--dark-gray);
+}
+
+footer {
+    background-color: var(--dark-green);
+}
+
+footer a {
+    color: var(--yellow);
+}

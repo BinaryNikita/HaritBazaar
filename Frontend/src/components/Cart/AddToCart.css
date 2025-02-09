@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f0;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.add-to-cart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.quantity-input {
+    margin-bottom: 10px;
+}
+
+.quantity-input label {
+    font-weight: bold;
+    color: #264653;
+}
+
+.quantity-input input {
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px solid #2a9d8f;
+    border-radius: 5px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.message {
+    color: #e76f51;
+    margin-top: 10px;
+}
+
+.btn-success {
+    background-color: #2a9d8f;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-success:hover {
+    background-color: #21867a;
+}

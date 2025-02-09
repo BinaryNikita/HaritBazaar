@@ -1,0 +1,15 @@
+Backend/node_modules
+
+Backend/package-lock.json
+
+Backend/.DS_Store
+
+Backend/public
+
+Frontend/node_modules
+
+
+Frontend/package-lock.json
+
+
+Frontend/README.md

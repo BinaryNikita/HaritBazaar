@@ -1,0 +1,41 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f0;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.navbar {
+    background-color: #ffffff;
+}
+
+.navbar-brand {
+    color: #2a9d8f !important;
+    font-size: 1.5em;
+}
+
+.nav-link {
+    color: #264653 !important;
+    font-size: 1em;
+}
+
+.nav-link:hover {
+    color: #2a9d8f !important;
+}
+
+.navbar-toggler-icon {
+    background-color: #264653;
+}
+
+@media (max-width: 768px) {
+    .navbar-collapse {
+        background-color: #ffffff;
+    }
+
+    .nav-link {
+        color: #264653 !important;
+        text-align: center;
+        padding: 10px 0;
+    }
+}

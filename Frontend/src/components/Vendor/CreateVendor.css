@@ -1,0 +1,44 @@
+  .shadow-lg {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1) !important;
+  }
+
+  .vendor-form div input{
+    background-color: #e2e3e167;
+  }  
+
+  .c-v-title{
+    font-size: x-large;
+  }
+
+  .vendor-form div label{
+    font-size: large;
+    color: #3e4d1c !important;
+  }  
+  
+  .btn-create-vendor {
+    background-color: #018749;
+    color: #fff;
+    width: 100%;
+  }
+  
+  .btn-create-vendor:hover {
+    background-color: #016c3a;
+  }
+  
+  /* Alert Styles */
+  .alert {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+  .alert-success {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  

@@ -1,0 +1,90 @@
+/* Container styling for sticky header */
+.container-fluid {
+    box-shadow: 3px 2px 2px #616060;
+    /* position: sticky;
+    top: 0; */
+    z-index: 999;
+    background-color: #fff;
+}
+
+/* Navbar styling */
+.navbar-header a.navbar-brand,
+.navbar-header a.navbar-brand:hover,
+.navbar-header a.navbar-brand:focus {
+    color: #616060;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 5px 0;
+    text-transform: capitalize;
+}
+
+/* Styling for the menu */
+.menu-ui-design {
+    width: 100%;
+}
+
+
+/* Flex layout for navigation items */
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navbar link styling */
+nav.navbar.bootsnav ul.nav>li>.custom-link {
+    color: #616060;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    transition: color 0.3s linear;
+}
+
+.custom-link {
+    font-weight: bold !important;
+}
+
+.custom-link:hover {
+    color: #a8df65;
+    font-weight: bold;
+}
+
+/* For mobile screens */
+@media (max-width: 767px) {
+    .navbar-nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .container-fluid {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+.scroll {
+    list-style: none;
+}
+
+.scroll.active {
+    font-weight: bold;
+}
+
+/* Sticky header */
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar brand */
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 600;
+}

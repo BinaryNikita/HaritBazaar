@@ -1,0 +1,53 @@
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Styles for Footer Component */
+.footer-container {
+    background-color: #4c8881;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    /* position: fixed !important; */
+    /* width: 100%; */
+    /* height: 5vh; */
+    /* bottom: 0 !important; */
+}
+
+.footer-container .nav-link {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.footer-container .nav-link:hover {
+    color: #e9f5db !important;
+}
+
+/* Styles for HeroSection Component */
+.hero-section {
+    background-color: #e9f5db;
+    padding: 50px 0;
+}
+
+.hero-title {
+    font-size: 2.5em;
+    color: #264653;
+}
+
+.hero-subtitle {
+    font-size: 1.5em;
+    color: #2a9d8f;
+}
+
+.hero-button {
+    margin-top: 20px;
+    font-size: 1em;
+    padding: 10px 20px;
+}
+
+.hero-background {
+    background-color: #f8f9fa;
+}

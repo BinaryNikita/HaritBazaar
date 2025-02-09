@@ -1,0 +1,40 @@
+  .spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .form-check-label {
+    margin-left: 5px;
+  }
+
+  .m-p-card div img{
+    object-fit: cover !important;
+  }
+
+  .min-vh-100 {
+    min-height: 100vh;
+  }
+
+  .text-white-50 {
+    color: rgba(255, 255, 255, 0.5) !important;
+  }
+
+  .text-white {
+    color: #fff !important;
+  }
+
+  .shadow-lg {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2) !important;
+  }
+
+  /* Button Styles */
+  .btn-light {
+    background-color: #28a745;
+    color: #fff;
+  }
+
+  .btn-light:hover {
+    background-color: #218838;
+  }

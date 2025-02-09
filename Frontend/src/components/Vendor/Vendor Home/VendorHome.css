@@ -1,0 +1,44 @@
+product.css
+
+/* Custom Styles for VendorHome Page */
+.vendor-actions {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.vendor-actions .btn {
+    margin: 0 10px;
+}
+
+/* Custom Styles for Most Selled Products Section */
+.m-w-p {
+    margin-top: 2rem;
+}
+
+.m-w-p .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.m-w-p .card:hover {
+    transform: scale(1.05);
+}
+
+.m-w-p .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.m-w-p .card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

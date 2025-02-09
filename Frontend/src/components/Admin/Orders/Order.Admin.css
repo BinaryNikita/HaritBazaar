@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f0;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.order-card {
+    background-color: #ffffff;
+    border: 2px solid #2a9d8f;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.order-card:hover {
+    transform: scale(1.05);
+}
+
+.details {
+    background-color: #e9f5f2;
+    border: 1px solid #2a9d8f;
+}
+
+.summary {
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.address-details, .additional-details {
+    background-color: #e9f5f2;
+}
+
+p {
+    margin: 5px 0;
+}
+
+strong {
+    color: #264653;
+}
+
+@media (max-width: 768px) {
+    .order-card {
+        width: 90%;
+    }
+}

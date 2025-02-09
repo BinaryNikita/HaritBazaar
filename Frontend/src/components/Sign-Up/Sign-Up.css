@@ -1,0 +1,54 @@
+/* Sign-up.css */
+
+/* Background and container */
+.su-classname {
+    background-color: #f0f8f4; /* Soft pastel green */
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Card styling */
+.su-card {
+    background-color: #018749; /* Deep green */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+/* Input fields */
+.su-input {
+    border: none;
+    padding: 12px;
+    border-radius: 50px;
+    font-size: 1rem;
+}
+
+/* Button styling */
+.su-btn-light {
+    background-color: #f8f9fa; /* Soft off-white */
+    color: #018749;
+    border: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.su-btn-light:hover {
+    background-color: #d4edda; /* Lighter green */
+    color: #016a3a;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.text-white:hover {
+    text-decoration: underline;
+}
+
+/* Responsive tweaks */
+@media (max-width: 576px) {
+    .su-card {
+        width: 90%;
+    }
+}

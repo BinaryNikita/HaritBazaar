@@ -1,0 +1,32 @@
+/* Custom Styles for Order Request Page */
+.order-summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.order-summary:hover {
+  text-decoration: none;
+}
+
+.card h5.card-title {
+  font-size: 1.2rem;
+  color: #343a40;
+}
+
+.card p.card-text {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.btn-outline-success {
+  color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-outline-success:hover {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
